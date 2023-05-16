@@ -1,0 +1,62 @@
+
+.foot{
+   
+    background-image: url(img/simple\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color:  rgb(43, 163, 151) ;
+     
+}
+footer{
+   
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    text-align: center;
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+.social a{
+    text-decoration: none;
+}
+.social a span{
+    
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+}
+.social a span:hover{
+    background-color: transparent;
+    border: 2px solid rgb(43, 163, 151) ;
+    cursor: pointer;
+}
+
+
+
